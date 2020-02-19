@@ -1,4 +1,4 @@
-module github.com/shihanng/shihan.dev
+module github.com/shihanng/shihanng.github.io
 
 go 1.13
 
