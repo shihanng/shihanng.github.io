@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://shihanng.github.com/sitemap.xml
+Sitemap: https://ng.shihan.dev/sitemap.xml
