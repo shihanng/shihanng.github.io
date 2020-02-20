@@ -1,0 +1,36 @@
+<div class="home-profile">
+    {{- $avatar := .Site.Params.home.profile.avatarURL -}}
+    {{- with .Site.Params.home.profile.gravatarEmail -}}
+        {{- $avatar = md5 . | printf "https://www.gravatar.com/avatar/%s?s=240&d=mp" -}}
+    {{- end -}}
+    {{- with $avatar -}}
+        <div class="home-avatar">
+            <img src={{ . | relURL }} alt="avatar" title="{{ T "home" }}">
+        </div>
+    {{- end -}}
+
+    {{- with .Site.Params.home.profile.subtitle -}}
+        <h2 class="home-description">
+            {{- if $.Site.Params.home.profile.typeit -}}
+                {{- $id := md5 . | printf "tp-%s" -}}
+                <div id={{ printf "r%s" $id }} hidden=true>
+                    {{- /* FIXME: https://github.com/gohugoio/hugo/issues/6882 */ -}}
+                    {{- /* . | $.RenderString | safeHTML */ -}}
+                    {{- . | markdownify | safeHTML -}}
+                </div>
+                <div id={{ $id }} class="typeit"></div>
+                {{- $.Scratch.SetInMap "typeitMap" $id (slice $id) -}}
+            {{- else -}}
+                {{- /* FIXME: https://github.com/gohugoio/hugo/issues/6882 */ -}}
+                {{- /* . | $.RenderString | safeHTML */ -}}
+                {{- . | markdownify | safeHTML -}}
+            {{- end -}}
+        </h2>
+    {{- end -}}
+
+    <div class="home-social-links">
+        {{- if .Site.Params.home.profile.social -}}
+            {{- partial "home/social.html" . -}}
+        {{- end -}}
+    </div>
+</div>

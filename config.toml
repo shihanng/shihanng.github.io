@@ -1,6 +1,6 @@
 baseURL = "http://shihanng.github.com/"
 languageCode = "en-us"
-theme = ["github.com/dillonzq/LoveIt"]
+theme = ["me", "github.com/dillonzq/LoveIt"]
 defaultContentLanguage = "en"
 title = "Shi Han NG"
 enableGitInfo = false
