@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://shihanng.github.com/"
 languageCode = "en-us"
 theme = ["github.com/dillonzq/LoveIt"]
 defaultContentLanguage = "en"
