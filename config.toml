@@ -1,4 +1,4 @@
-baseURL = "http://shihanng.github.com/"
+baseURL = "https://ng.shihan.dev/"
 languageCode = "en-us"
 theme = ["me", "github.com/dillonzq/LoveIt"]
 defaultContentLanguage = "en"
