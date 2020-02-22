@@ -128,7 +128,7 @@ dateFormatToUse = "2006-01-02"
       social = true
     # Home Page Posts
     [params.home.posts]
-      enable = false
+      enable = true
       paginate = 6
       defaultHiddenFromHomePage = true
 
