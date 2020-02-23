@@ -4,7 +4,7 @@ posts:
     URL: https://medium.com/henngeblog/goa-v2-on-google-app-engine-c3c4ab8bfbb5
     Icon: fab fa-medium
 
-  - Title: Switching Between Kubernetes Clusters in GKEManaging Go Versions with direnv
+  - Title: Switching Between Kubernetes Clusters in GKE
     URL: https://medium.com/@shihanng/switching-between-kubernetes-clusters-in-gke-2f88c89c70f
     Icon: fab fa-medium
 
