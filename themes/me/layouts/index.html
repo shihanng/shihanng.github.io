@@ -1,0 +1,19 @@
+{{- define "content" -}}
+    <div class="page home">
+        {{- /* Profile */ -}}
+        {{- if .Site.Params.home.profile.enable -}}
+            {{- partial "home/profile.html" . -}}
+        {{- end -}}
+
+        {{- /* Posts */ -}}
+        {{- if .Site.Params.home.posts.enable -}}
+            <div class="home-profile devto">
+            <ul class="fa-ul devto">
+                {{ range .Site.Data.articles }}
+                    {{ partial "home/articles.html" . }}
+                {{ end }}
+            <ul>
+            </div>
+        {{- end -}}
+    </div>
+{{- end -}}

@@ -1,0 +1,21 @@
+---
+posts:
+  - Title: tfvar - A tool to help you write Terraform's variable definitions
+    URL: https://dev.to/shihanng/tfvar-a-tool-to-help-you-write-terraform-s-variable-definitions-1j65
+    Icon: fab fa-dev
+
+  - Title: Improve your PostgreSQL Workflows with vim-tmux-runner
+    URL: https://dev.to/shihanng/improve-your-postgresql-workflows-with-vim-tmux-runner-51g4
+    Icon: fab fa-dev
+
+  - Title: "gig: a gitignore generator"
+    URL: https://dev.to/shihanng/gig-a-gitignore-generator-opc
+    Icon: fab fa-dev
+
+  - Title: Managing Go Versions with direnv
+    URL: https://dev.to/shihanng/managing-go-versions-with-direnv-19mb
+    Icon: fab fa-dev
+
+  - Title: Looking into PostgreSQL DB's tables of your Development Environment
+    URL: https://dev.to/shihanng/looking-into-postgresql-db-s-tables-of-your-development-environment-1i0i
+    Icon: fab fa-dev
