@@ -1,13 +1,5 @@
 ---
 posts:
-  - Title: How to read CSV file from Amazon S3 in Python
-    URL: https://dev.to/shihanng/how-to-read-csv-file-from-amazon-s3-in-python-4ee9
-    Icon: fab fa-dev
-
-  - Title: Memory Reservation in Amazon Elastic Container Service
-    URL: https://dev.to/shihanng/memory-reservation-in-amazon-elastic-container-service-3l4h
-    Icon: fab fa-dev
-
   - Title: tfvar - A tool to help you write Terraform's variable definitions
     URL: https://dev.to/shihanng/tfvar-a-tool-to-help-you-write-terraform-s-variable-definitions-1j65
     Icon: fab fa-dev
