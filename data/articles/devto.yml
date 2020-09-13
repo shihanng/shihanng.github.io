@@ -1,5 +1,9 @@
 ---
 posts:
+  - Title: Publishing DEV articles from GitHub
+    URL: https://dev.to/shihanng/publishing-dev-articles-from-github-3jc2
+    Icon: fab fa-dev
+
   - Title: How to read CSV file from Amazon S3 in Python
     URL: https://dev.to/shihanng/how-to-read-csv-file-from-amazon-s3-in-python-4ee9
     Icon: fab fa-dev
